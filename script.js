@@ -3,72 +3,72 @@
 const episodes = [
     {
         id: 1,
-        thumbnail: '/img/ft1.jpg',
+        thumbnail: 'ft1.jpg',
         title: 'Episódio 1'
     },
     {
         id: 2,
-        thumbnail: '/img/ft2.jpg',
+        thumbnail: 'ft2.jpg',
         title: 'Episódio 2'
     },
     {
         id: 3,
-        thumbnail: '/img/ft4.jpg',
+        thumbnail: 'ft4.jpg',
         title: 'Episódio 3'
     },
     {
         id: 4,
-        thumbnail: '/img/ft5.jpg',
+        thumbnail: 'ft5.jpg',
         title: 'Episódio 4'
     },
     {
         id: 5,
-        thumbnail: '/img/ft6.jpg',
+        thumbnail: 'ft6.jpg',
         title: 'Episódio 5'
     },
     {
-        id: 5,
-        thumbnail: '/img/ft7.jpg',
+        id: 6,
+        thumbnail: 'ft7.jpg',
         title: 'Episódio 5'
     },
     {
-        id: 5,
-        thumbnail: '/img/img.jpg',
+        id: 7,
+        thumbnail: 'img.jpg',
         title: 'Episódio 5'
     },
     {
-        id: 5,
-        thumbnail: '/img/img1.jpg',
+        id: 8,
+        thumbnail: 'img1.jpg',
         title: 'Episódio 5'
     },
     {
-        id: 5,
-        thumbnail: '/img/img2.jpg',
+        id: 9,
+        thumbnail: 'img2.jpg',
         title: 'Episódio 5'
     },
     {
-        id: 5,
-        thumbnail: '/img/img3.jpg',
+        id: 10,
+        thumbnail: 'img3.jpg',
         title: 'Episódio 5'
     },
     {
-        id: 5,
-        thumbnail: '/img/img4.jpg',
+        id: 11,
+        thumbnail: 'img4.jpg',
         title: 'Episódio 5'
     },
     {
-        id: 5,
-        thumbnail: '/img/img5.jpg',
+        id: 12,
+        thumbnail: 'img5.jpg',
         title: 'Episódio 5'
     },
     {
-        id: 5,
-        thumbnail: '/img/img6.jpg',
+        id: 13,
+        thumbnail: 'img6.jpg',
         title: 'Episódio 5'
     },
     {
-        id: 5,
-        thumbnail: '/img/img7.jpg',
+        id: 14,
+        thumbnail: 'img7.jpg',
         title: 'Episódio 5'
     }
 ];
