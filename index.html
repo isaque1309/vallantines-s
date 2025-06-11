@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <meta name="description" content="Sua plataforma de streaming favorita">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">NetFlix</div>
+        </div>
+    </header>
+
+   
+    <section class="hero-section">
+        <div class="hero-background"></div>
+        <div class="hero-gradient"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Juliana & Isaque</h1>
+            
+            
+            <div class="metadata">
+                <span class="release-date">Estreou em 13/09/2021</span>
+                <div class="badges">
+                    <div class="badge-l">L</div>
+                    <div class="badge-hd">HD</div>
+                </div>
+            </div>
+            
+         
+            <div class="status">
+                <div class="top-badge">TOP 10</div>
+                <span class="trending-text">Em alta no momento</span>
+            </div>
+            
+  
+            <p class="description">dadasd</p>
+            
+          
+            <div class="action-buttons">
+                <button class="btn-primary" onclick="playContent()">
+                    <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                    Reproduzir
+                </button>
+                <button class="btn-secondary" onclick="toggleFavorite()">
+                    <svg class="check-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20,6 9,17 4,12"></polyline>
+                    </svg>
+                    Favorito
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="episodes-section">
+        <div class="episodes-container">
+           
+            <div class="section-title">
+                <svg class="list-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="8" y1="6" x2="21" y2="6"></line>
+                    <line x1="8" y1="12" x2="21" y2="12"></line>
+                    <line x1="8" y1="18" x2="21" y2="18"></line>
+                    <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                    <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                    <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                </svg>
+                <h2>Melhores episódios</h2>
+            </div>
+            
+            <div class="episodes-grid" id="episodesGrid">
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
